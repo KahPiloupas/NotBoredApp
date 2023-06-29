@@ -110,11 +110,11 @@ class Register: UIViewController {
                         self.navigationController?.popToRootViewController(animated: true)
                     }
                 } else {
-                    self.alert?.showAlert(title: "Ops!!", message: error?.localizedDescription ?? "")
+                    self.alert?.showAlert(title: "❌", message: error?.localizedDescription ?? "")
                 }
             }
         } else {
-            self.alert?.showAlert(title: "Atention!", message: "Some fields are empty!")
+            self.alert?.showAlert(title: "🚨", message: "Some fields are empty!")
             
         }
     }

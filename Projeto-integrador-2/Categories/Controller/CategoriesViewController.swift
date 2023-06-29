@@ -48,7 +48,7 @@ class CategoriesViewController: BaseViewController {
                 return jsonData.categories
             }
             catch {
-                self.alert?.showAlert(title: "Ops!!", message: "Failed to decode!")
+                self.alert?.showAlert(title: "❌", message: "Failed to decode!")
             }
         }
         return []

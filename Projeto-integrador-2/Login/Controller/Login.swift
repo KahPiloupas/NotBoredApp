@@ -48,12 +48,12 @@ class Login: UIViewController {
     @IBAction func LoginButtonPressed(_ sender: Any) {
         tryLogin(email: self.emailTextField.text ?? "", password: self.passwordTextField.text ?? "") { resultLogin in
             if resultLogin == "Success" {
-                self.alert?.showAlert(title: "Success!!", message: "Let's Play!") {
+                self.alert?.showAlert(title: "✅", message: "Let's Play!") {
                     let initialViewController = InitialViewController(nibName: "InitialViewController", bundle: nil)
                     self.navigationController?.pushViewController(initialViewController, animated: true)
                 }
             } else {
-                self.alert?.showAlert(title: "Ops!!", message: resultLogin)
+                self.alert?.showAlert(title: "❌", message: resultLogin)
             }
         }
     }
