@@ -59,10 +59,7 @@ class Login: UIViewController {
     }
     
     @IBAction func RegisterButtonPressed(_ sender: Any) {
-        let vc: Register? = UIStoryboard(name: "Register", bundle: nil).instantiateViewController(withIdentifier: "Register") as? Register
-        navigationController?.pushViewController(vc ?? UIViewController(), animated: true)
-//        if let viewController = UIStoryboard(name: "Register", bundle: nil).instantiateViewController(withIdentifier: "Register") as? Register {
-//            navigationController?.pushViewController(viewController, animated: true)
-//        }
+        let viewController: Register? = UIStoryboard(name: "Register", bundle: nil).instantiateViewController(withIdentifier: "Register") as? Register
+        navigationController?.pushViewController(viewController ?? UIViewController(), animated: true)
     }
 }
