@@ -102,7 +102,13 @@ class Register: UIViewController {
         if statusOk {
             Auth.auth().createUser(withEmail: self.emailTextField.text ?? "", password: self.passwordTextField.text ?? "") { authResult, error in
                 if error == nil {
-                    self.alert?.showAlert(title: "Success!!", message: "Successful Register!")
+                    self.alert?.showAlert(title: "Success!!", message: "Successful Register!") {
+                        self.nameTextField.text = ""
+                        self.emailTextField.text = ""
+                        self.passwordTextField.text = ""
+                        self.confirmPasswordTextField.text = ""
+                        self.navigationController?.popToRootViewController(animated: true)
+                    }
                 } else {
                     self.alert?.showAlert(title: "Ops!!", message: error?.localizedDescription ?? "")
                 }
@@ -126,15 +132,15 @@ extension UIColor {
         if formattedHex.count == 6 {
             formattedHex = "FF" + formattedHex
         }
-
+        
         var rgbValue: UInt64 = 0
         Scanner(string: formattedHex).scanHexInt64(&rgbValue)
-
+        
         let red = CGFloat((rgbValue & 0xFF0000) >> 16) / 255.0
         let green = CGFloat((rgbValue & 0x00FF00) >> 8) / 255.0
         let blue = CGFloat(rgbValue & 0x0000FF) / 255.0
         let alpha = CGFloat((rgbValue & 0xFF000000) >> 24) / 255.0
-
+        
         self.init(red: red, green: green, blue: blue, alpha: alpha)
     }
     static let screenColor = UIColor(hex: "#b6d8c0")

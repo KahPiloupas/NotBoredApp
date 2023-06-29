@@ -38,6 +38,8 @@ class Login: UIViewController {
         Auth.auth().signIn(withEmail: email, password: password) { authResult, error in
             if error == nil {
                 completion ("Success")
+                self.emailTextField.text = ""
+                self.passwordTextField.text = ""
             } else {
                 completion (error?.localizedDescription ?? "")
             }
@@ -57,8 +59,10 @@ class Login: UIViewController {
     }
     
     @IBAction func RegisterButtonPressed(_ sender: Any) {
-        if let viewController = UIStoryboard(name: "Register", bundle: nil).instantiateViewController(withIdentifier: "Register") as? Register {
-            navigationController?.pushViewController(viewController, animated: true)
-        }
+        let vc: Register? = UIStoryboard(name: "Register", bundle: nil).instantiateViewController(withIdentifier: "Register") as? Register
+        navigationController?.pushViewController(vc ?? UIViewController(), animated: true)
+//        if let viewController = UIStoryboard(name: "Register", bundle: nil).instantiateViewController(withIdentifier: "Register") as? Register {
+//            navigationController?.pushViewController(viewController, animated: true)
+//        }
     }
 }
