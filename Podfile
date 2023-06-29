@@ -7,6 +7,6 @@ target 'Projeto-integrador-2' do
 
   # Pods for Projeto-integrador-2
 
-pod 'Alamofire'
+pod 'AlamoFire'
 
 end

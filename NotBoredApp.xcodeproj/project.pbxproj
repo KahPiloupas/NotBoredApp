@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		25A744AF7A52ACFE4E251C37 /* Pods_Projeto_integrador_2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1F2FF2F8A0FEF95C5272971 /* Pods_Projeto_integrador_2.framework */; };
-		571DE61A2A4B961700585183 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 571DE6192A4B961700585183 /* GoogleService-Info.plist */; };
 		571DE61D2A4B972C00585183 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 571DE61C2A4B972C00585183 /* FirebaseAuth */; };
 		57613F3128C8E4F5006E7B21 /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57613F2F28C8E4F5006E7B21 /* TermsViewController.swift */; };
 		57613F3228C8E4F5006E7B21 /* TermsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57613F3028C8E4F5006E7B21 /* TermsViewController.xib */; };
@@ -34,10 +33,10 @@
 		57B5943529C2A6A7008D3791 /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B5943429C2A6A7008D3791 /* Register.swift */; };
 		57B5943A29C2B4C3008D3791 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B5943929C2B4C3008D3791 /* Alert.swift */; };
 		57B5943C29C50996008D3791 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B5943B29C50996008D3791 /* BaseViewController.swift */; };
+		57F318472A4DE94C0057D70C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 57F318462A4DE94B0057D70C /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		571DE6192A4B961700585183 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		57613F2F28C8E4F5006E7B21 /* TermsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
 		57613F3028C8E4F5006E7B21 /* TermsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TermsViewController.xib; sourceTree = "<group>"; };
 		57613F3328C8E50F006E7B21 /* CategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
@@ -49,7 +48,7 @@
 		578030BD28C92EBB00AE6700 /* categories.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = categories.json; sourceTree = "<group>"; };
 		578030CB28CA3C0E00AE6700 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		578030CD28CA3E1300AE6700 /* BoredModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoredModel.swift; sourceTree = "<group>"; };
-		578C261E28C794FC00D78710 /* Projeto-integrador-2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Projeto-integrador-2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		578C261E28C794FC00D78710 /* NotBoredApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotBoredApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		578C262128C794FC00D78710 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		578C262328C794FC00D78710 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		578C262A28C794FD00D78710 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -64,6 +63,7 @@
 		57B5943429C2A6A7008D3791 /* Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
 		57B5943929C2B4C3008D3791 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		57B5943B29C50996008D3791 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		57F318462A4DE94B0057D70C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		CDDFF2CB32212863283FADD6 /* Pods-Projeto-integrador-2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Projeto-integrador-2.debug.xcconfig"; path = "Target Support Files/Pods-Projeto-integrador-2/Pods-Projeto-integrador-2.debug.xcconfig"; sourceTree = "<group>"; };
 		E1F2FF2F8A0FEF95C5272971 /* Pods_Projeto_integrador_2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Projeto_integrador_2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC53F9D3101D88C69137ACFA /* Pods-Projeto-integrador-2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Projeto-integrador-2.release.xcconfig"; path = "Target Support Files/Pods-Projeto-integrador-2/Pods-Projeto-integrador-2.release.xcconfig"; sourceTree = "<group>"; };
@@ -194,7 +194,7 @@
 		578C261528C794FC00D78710 = {
 			isa = PBXGroup;
 			children = (
-				578C262028C794FC00D78710 /* Projeto-integrador-2 */,
+				578C262028C794FC00D78710 /* NotBoredApp */,
 				578C261F28C794FC00D78710 /* Products */,
 				B40711E797AAFD91703C0C80 /* Pods */,
 				71B8F50FDAD2BF58613FD2E8 /* Frameworks */,
@@ -204,12 +204,12 @@
 		578C261F28C794FC00D78710 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				578C261E28C794FC00D78710 /* Projeto-integrador-2.app */,
+				578C261E28C794FC00D78710 /* NotBoredApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		578C262028C794FC00D78710 /* Projeto-integrador-2 */ = {
+		578C262028C794FC00D78710 /* NotBoredApp */ = {
 			isa = PBXGroup;
 			children = (
 				57B5943829C2B4A9008D3791 /* Alert */,
@@ -220,11 +220,11 @@
 				578030C028CA179500AE6700 /* Categories */,
 				578030BF28CA174A00AE6700 /* Initial */,
 				578C262F28C794FD00D78710 /* Info.plist */,
-				571DE6192A4B961700585183 /* GoogleService-Info.plist */,
+				57F318462A4DE94B0057D70C /* GoogleService-Info.plist */,
 				578030C228CA182F00AE6700 /* Resources */,
 				57B5943B29C50996008D3791 /* BaseViewController.swift */,
 			);
-			path = "Projeto-integrador-2";
+			path = NotBoredApp;
 			sourceTree = "<group>";
 		};
 		57B5942329C2A497008D3791 /* Login */ = {
@@ -305,9 +305,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		578C261D28C794FC00D78710 /* Projeto-integrador-2 */ = {
+		578C261D28C794FC00D78710 /* NotBoredApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 578C263228C794FD00D78710 /* Build configuration list for PBXNativeTarget "Projeto-integrador-2" */;
+			buildConfigurationList = 578C263228C794FD00D78710 /* Build configuration list for PBXNativeTarget "NotBoredApp" */;
 			buildPhases = (
 				A69590C9E6215F74D9F863EE /* [CP] Check Pods Manifest.lock */,
 				578C261A28C794FC00D78710 /* Sources */,
@@ -319,12 +319,12 @@
 			);
 			dependencies = (
 			);
-			name = "Projeto-integrador-2";
+			name = NotBoredApp;
 			packageProductDependencies = (
 				571DE61C2A4B972C00585183 /* FirebaseAuth */,
 			);
 			productName = "Projeto-integrador-2";
-			productReference = 578C261E28C794FC00D78710 /* Projeto-integrador-2.app */;
+			productReference = 578C261E28C794FC00D78710 /* NotBoredApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -342,7 +342,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 578C261928C794FC00D78710 /* Build configuration list for PBXProject "Projeto-integrador-2" */;
+			buildConfigurationList = 578C261928C794FC00D78710 /* Build configuration list for PBXProject "NotBoredApp" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -358,7 +358,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				578C261D28C794FC00D78710 /* Projeto-integrador-2 */,
+				578C261D28C794FC00D78710 /* NotBoredApp */,
 			);
 		};
 /* End PBXProject section */
@@ -376,7 +376,7 @@
 				578030BE28C92EBB00AE6700 /* categories.json in Resources */,
 				57B5942029BFD5B1008D3791 /* ActivitiesViewController.storyboard in Resources */,
 				578C263828C795CC00D78710 /* InitialViewController.xib in Resources */,
-				571DE61A2A4B961700585183 /* GoogleService-Info.plist in Resources */,
+				57F318472A4DE94C0057D70C /* GoogleService-Info.plist in Resources */,
 				57B5942D29C2A5A8008D3791 /* Login.storyboard in Resources */,
 				57B5942F29C2A5BF008D3791 /* Register.storyboard in Resources */,
 			);
@@ -586,7 +586,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7S5PLVP238;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Projeto-integrador-2/Info.plist";
+				INFOPLIST_FILE = NotBoredApp/Info.plist;
 				INFOPLIST_KEY_NSMainNibFile = InitialViewController;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -616,7 +616,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7S5PLVP238;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Projeto-integrador-2/Info.plist";
+				INFOPLIST_FILE = NotBoredApp/Info.plist;
 				INFOPLIST_KEY_NSMainNibFile = InitialViewController;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -639,7 +639,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		578C261928C794FC00D78710 /* Build configuration list for PBXProject "Projeto-integrador-2" */ = {
+		578C261928C794FC00D78710 /* Build configuration list for PBXProject "NotBoredApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				578C263028C794FD00D78710 /* Debug */,
@@ -648,7 +648,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		578C263228C794FD00D78710 /* Build configuration list for PBXNativeTarget "Projeto-integrador-2" */ = {
+		578C263228C794FD00D78710 /* Build configuration list for PBXNativeTarget "NotBoredApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				578C263328C794FD00D78710 /* Debug */,
